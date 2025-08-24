@@ -21,12 +21,12 @@ const Footer = ({ siteUrl }) => {
   ];
 
   return (
-    <footer className="mt-12 py-10 text-center bg-gray-900 border-t border-gray-700">
+    <footer className="mt-12 py-10 text-center bg-gray-900 border-t border-gray-700 px-2">
       
       <div className="flex flex-col items-center justify-center bg-gray-800 p-6 rounded-2xl shadow-lg">
         <QRCodeSVG
           value={siteUrl}
-          size={300}
+          size={250}
           bgColor="#111827"
           fgColor="#ffffff"
         />
@@ -39,7 +39,7 @@ const Footer = ({ siteUrl }) => {
         <h2 className="text-lg font-semibold text-gray-200 mb-4">
           📞 Contact Info
         </h2>
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-3 px-2">
           {contacts.map((contact, idx) => (
             <div
               key={idx}
