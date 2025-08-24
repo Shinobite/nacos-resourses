@@ -1,15 +1,18 @@
+import fubkLogo from "/src/assets/fubk-logo.png"
+import nacosLogo from "/src/assets/nacos-logo.png"
+
 const Header = () => {
   return (
     <header className="text-center mb-16 px-4">
       
       <div className="flex justify-center items-center gap-12 mb-8">
         <img
-          src="src\assets\fubk-logo.png"
+          src={fubkLogo}
           alt="Logo 1"
           className="size-24 p-1 object-contain hover:scale-105 transition-transform duration-300 bg-white rounded-full"
         />
         <img
-          src="src/assets/nacos-logo.png"
+          src={nacosLogo}
           alt="Logo 2"
           className="size-24 p-1 object-contain hover:scale-105 transition-transform duration-300 bg-white rounded-full"
         />
