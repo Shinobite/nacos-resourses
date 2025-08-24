@@ -5,7 +5,7 @@ import { resources } from "./data/resources";
 import { motion } from "framer-motion";
 
 const App = () => {
-  const siteUrl = "https://gamma.app";
+  const siteUrl = "https://nacos-resourses.vercel.app/";
 
   return (
     <div className="w-screen min-h-screen bg-gray-900 text-gray-100 flex flex-col items-center font-sans overflow-x-hidden overflow-y-scroll h-64 scrollbar scrollbar-thumb-gray-600 scrollbar-track-gray-800 scrollbar-thin">

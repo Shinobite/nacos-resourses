@@ -4,12 +4,12 @@ const Header = () => {
       
       <div className="flex justify-center items-center gap-12 mb-8">
         <img
-          src="src/assets/FUBK LOGO.png"
+          src="src\assets\fubk-logo.png"
           alt="Logo 1"
           className="size-24 p-1 object-contain hover:scale-105 transition-transform duration-300 bg-white rounded-full"
         />
         <img
-          src="src/assets/NACOS LOGO.png"
+          src="src/assets/nacos-logo.png"
           alt="Logo 2"
           className="size-24 p-1 object-contain hover:scale-105 transition-transform duration-300 bg-white rounded-full"
         />
